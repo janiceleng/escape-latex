@@ -46,4 +46,8 @@ suite('escape-latex', function () {
         assert.equal("These \\{\\} should be escaped, as well as this \\textbackslash{} character",
             escape("These {} should be escaped, as well as this \\ character"));
     });
+    test('should escape – (endash) correctly', function () {
+        assert.equal("Ranges 30 -- 50",
+            escape("Ranges 30 – 50"));
+    })
 });

@@ -14,7 +14,6 @@ var escapes = {
     '^': '\\textasciicircum{}',
     '_': '\\_',
     '~': '\\textasciitilde{}',
-    '-': '-',
     '–': '--'
 },
     /**
