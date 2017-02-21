@@ -13,7 +13,9 @@ var escapes = {
     '&': '\\&',
     '^': '\\textasciicircum{}',
     '_': '\\_',
-    '~': '\\textasciitilde{}'
+    '~': '\\textasciitilde{}',
+    '-': '-',
+    '–': '--'
 },
     /**
      * Escape a string to be used in JS regular expression.
